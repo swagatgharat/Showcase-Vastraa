@@ -2,7 +2,14 @@
 
 Vastraa is a production-ready, feature-rich E-commerce platform designed to bridge the gap between buyers, sellers, and administrators. Built with a modern tech stack, it emphasizes security, scalability, and AI-enhanced user experiences.
 
----
+## Links
+
+- **Live Demo**: [https://vastraa-05dq.onrender.com](https://vastraa-05dq.onrender.com/)
+
+## Image
+
+<img width="3150" height="2450" alt="Vastra" src="https://github.com/user-attachments/assets/dd4f6182-2282-4f70-a24e-66864098fb7b" />
+
 
 ## 1. Project Overview
 
@@ -17,48 +24,21 @@ Vastraa is a comprehensive marketplace solution that caters to three distinct us
 
 ## 2. Core Features
 
-### 🛒 For Buyers
-- **Product Catalog:** Advanced filtering by category, price, and color with real-time search.
-- **AI Support:** Integrated "Vastraa Assistant" chatbot for product recommendations and support.
-- **Cart & Checkout:** Persistent shopping cart with a streamlined multi-step checkout process.
-- **Order Tracking:** Detailed order history with status updates (Order Placed, Shipped, Delivered).
-- **Profile Management:** Manage multiple shipping addresses, personal details, and account security.
-- **Reviews & Ratings:** Ability to rate products and provide feedback for fellow shoppers.
-
-### 🏢 For Sellers
-- **Seller Dashboard:** Comprehensive overview of sales metrics, active products, and pending orders.
-- **Product Management:** Full CRUD operations for products with support for multiple images (via ImageKit).
-- **AI Content Generation:** Generate professional, SEO-friendly product descriptions from titles and images.
-- **Order Fulfillment:** Manage incoming orders, update shipping statuses, and view buyer details.
-- **Business Profile:** Customizable store identity including logos and business descriptions.
-
-### 🛡️ For Administrators
-- **Platform Oversight:** Monitor total users, products, and platform-wide sales statistics.
-- **User Management:** Ability to warn, ban, or unban users and sellers based on compliance.
-- **Seller Approval:** Vetting process for new sellers to maintain marketplace quality.
-- **Complaint Resolution:** Integrated ticketing system to resolve buyer/seller disputes efficiently.
+- **Multi-User Ecosystem**: Dedicated portals and tailored dashboards for Buyers (shopping & tracking), Sellers (inventory management), and Administrators (platform moderation).
+- **AI-Powered Assistance**: Integrated "Vastraa Assistant" chatbot for buyer recommendations and an AI-driven product description generator for sellers.
+- **Product & Order Management**: Comprehensive catalog filtering, full-featured CRUD operations for vendors, and real-time order status tracking.
+- **Robust Security Framework**: Secure cookie-based JWT authentication, CSRF double-cookie submit protection, and role-based access control (RBAC).
+- **Media Delivery & Storage**: Performance-optimized image uploads and real-time media transformations powered by ImageKit.
 
 ---
 
 ## 3. Tech Stack
 
-### Frontend
-- **Framework:** React 19 (Vite)
-- **Styling:** Tailwind CSS 4.0
-- **State Management:** Zustand
-- **Animations:** Framer Motion
-- **Icons:** Lucide React
-- **Data Visualization:** Recharts (Admin/Seller stats)
-- **Utilities:** Axios, React-Toastify, jsPDF (for receipts)
-
-### Backend
-- **Runtime:** Node.js
-- **Framework:** Express.js (v5)
-- **Database:** MongoDB (Mongoose ODM)
-- **Caching:** Redis (via Upstash or ioredis)
-- **Storage:** ImageKit.io (Media delivery & optimization)
-- **AI Engine:** OpenAI SDK (Integrated with Google Gemini)
-- **Logging:** Pino & Pino-pretty
+- **Frontend Framework**: [React 19 (Vite)](https://react.dev/) with [Zustand](https://zustand-demo.pmnd.rs/) for state management and [Framer Motion](https://www.framer.com/motion/) for animations.
+- **Backend Framework**: [Node.js](https://nodejs.org/) / [Express.js 5](https://expressjs.com/) hosting a modular monolithic API.
+- **Database & Caching**: [MongoDB](https://www.mongodb.com/) via [Mongoose ODM](https://mongoosejs.com/) and [Redis](https://redis.io/) caching layer.
+- **Styling & UI**: [Tailwind CSS 4.0](https://tailwindcss.com/) for streamlined modern utility-first styling.
+- **AI & Storage Integrations**: [ImageKit.io](https://imagekit.io/) for media hosting and [OpenAI / Gemini SDK](https://openai.com/) for description generation.
 
 ---
 
